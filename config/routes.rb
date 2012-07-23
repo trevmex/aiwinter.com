@@ -3,11 +3,11 @@ AiwinterCom::Application.routes.draw do
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
-  resources :meetings
+  resources :meetings, :only => [:index, :show]
 
-  resources :papers
+  resources :papers, :only => [:index, :show]
 
-  resources :cities
+  resources :cities, :only => [:index, :show]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
