@@ -47,3 +47,6 @@ gem 'rails_admin'
 
 # Add user authentication
 gem "devise"
+
+# Use thin like Heroku
+gem 'thin'
