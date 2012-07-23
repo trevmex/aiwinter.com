@@ -36,3 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+# Add an admin console
+gem 'rails_admin'
+
+# Add user authentication
+gem "devise"
