@@ -44,3 +44,8 @@ gem "devise"
 
 # Use thin like Heroku
 gem 'thin'
+
+# Use the ruby racer for execjs
+gem "therubyracer"
+
+gem "fastercsv"
