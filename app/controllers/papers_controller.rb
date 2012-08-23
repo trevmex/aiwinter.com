@@ -6,7 +6,7 @@ class PapersController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @papers }
+      format.json { render :json => @papers }
     end
   end
 
@@ -17,7 +17,7 @@ class PapersController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @paper }
+      format.json { render :json => @paper }
     end
   end
 end
