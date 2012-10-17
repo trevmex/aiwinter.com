@@ -169,7 +169,6 @@ DEPENDENCIES
   mysql
   rails (= 3.2.6)
   rails_admin
-  sass-rails (~> 3.2.3)
   sqlite3
   therubyracer
   thin

@@ -2,9 +2,13 @@
 <html>
 <head>
   <title>AI Winter</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode/svn/trunk/html5.js" type="text/javascript"></script>
+  <![endif]-->
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -12,7 +16,18 @@
   <p id="alert" class="alert"><%= alert %></p>
 
   <div class="container">
-    <%= yield %>
+    <div class="row">
+      <div class="span3">
+        <h2>About Us</h2>
+        <p>AI Winter is a reading circle designed to grow our knowledge of AI and ML topics in a social setting.</p>
+      </div>
+      <div class="span9">
+        <%= yield %>
+      </div>
+    </div>
+    <div class="navbar navbar-fixed-top">
+      <a class="brand" href="#">AI Winter</a>
+    </div>
   </div>
 
 </body>
