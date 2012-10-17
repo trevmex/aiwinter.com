@@ -1,3 +1,5 @@
+/public/assets/*
+/public/favicon.gif
 .project
 *.rbc
 *.sassc
