@@ -47,9 +47,9 @@
           <a class="brand" href="#">AiwinterCom</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li><%= link_to "Papers", "/papers"  %></li>
+              <li><%= link_to "Meetings", "/meetings"  %></li>
+              <li><%= link_to "Cities", "/cities"  %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -58,17 +58,15 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span4">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li><p>AI Winter is a reading circle designed to grow our knowledge of AI and ML topics in a social setting.</p></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
+        <div class="span8">
           <%= bootstrap_flash %>
           <%= yield %>
         </div>
