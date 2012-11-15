@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
@@ -76,7 +76,9 @@
         <div class="row">
 
           <p class="lead">
-            Do you think neural nets and machine learning sound super cool? But you never have time
+            Do you think neural nets and machine learning sound super cool?
+          </p><p>
+            But you never have time
             to study it? Us, too -- that's why Philly Lambda is hosting <strong>AI Winter</strong>.
           </p>
           <p>
@@ -90,18 +92,15 @@
           </p>
           <p>
             Functional Fall was a 3 month, bi-weekly programming study group. Every two weeks,
-            we read a famous paper, then met for 2 hours at our local user group to talk about it.
+            we read a famous paper, then met for 2 hours at our local user group to
+            <a href="http://www.dustingetz.com/2011/11/18/philly-functional-fall-notes-mccarthy-lisp-paper.html">
+            talk about it.</a>
             Functional Fall was a <strong>resounding success</strong>.
           </p>
           <p class = "lead">
             Now, we bring you: <strong>AI Winter</strong>, a 3 month, bi-weekly study group, coming
-            to cities all over in winter 2013!
+            to cities all over in January 2013!
           </p>
-
-          <div>
-            <%= bootstrap_flash %>
-            <%= yield %>
-          </div>
 
         </div>
 
@@ -127,7 +126,7 @@
       <div>
         <blockquote>
           <p>
-            &quot;Dude, Functional Fall was f*cking <em>awesome<em>!!!!!!!1!
+            &quot;Dude, Functional Fall was f*cking <em>awesome</em>!!!!!!!1!
           </p>
           <small>
             A Real Person in
@@ -138,69 +137,35 @@
 
         </blockquote>
       </div>
-      <hr>
-      <div>
-        <blockquote>
-          <p>
-            &quot;The above quote is serious, but we do need a few more quotes, or something, to
-            fill out this margin through the papers grid. Links to content/blogs from functional
-            fall would be nice, if we have them. i wrote at least one blog post - notes on the
-            Mccarthy paper - i guess it never made it onto my real blog, i'll get it up soon.&quot;
-          </p>
-          <small>
-            A Real Person in
-            <cite title="Made Up Quote">
-              Made Up Quote
-            </cite>
-          </small>
 
-        </blockquote>
-      </div>
     </div>
     <hr>
   </div>
+
+  <div class="row">
+    <div class="span12">
+      <div>
+        <%= bootstrap_flash %>
+        <%= yield %>
+      </div>
+    </div>
+  </div>
   <hr>
   <div class="row">
-      <div class="span4">
+      <div class="span8 offset2">
         <h4>
           Get your city involved
         </h4>
         <p>
           Do you think your local programming meetup is interested? Great! We need your help...
           Forward this website to the mailing list for the group you think is most interested.
-          If there is interest, have your group organizer contact us by email. We'll get you
-          listed on the site and we'll start pre-screening papers!
+          If there is interest, have your group organizer contact us by email: aiwinter.organizer@gmail.com. We'll get you
+          listed on the site and we'll start pre-screening papers.
         </p>
-        <button class="btn btn-large btn-primary" type="button">
+        <a href="mailto:aiwinter.organizer@gmail.com?subject=aiwinter%20in%20my%20city" class="btn btn-primary btn-large">
           My meetup wants in!
-        </button>
+        </a>
       </div>
-
-      <div class="span4">
-        <h4>
-          lorem ipsum
-        </h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas sagittis
-          consequat. Cras dictum est eu arcu placerat in elementum mi aliquet. Proin mauris
-          turpis, consequat sed molestie vitae, sollicitudin sed est. Aenean quis lectus at felis
-          feugiat fermentum. Proin laoreet eros eu purus vulputate sollicitudin. Mauris id diam
-        </p>
-      </div>
-
-
-
-    <div class="span4">
-      <h4>
-        more calls to action
-      </h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas sagittis
-        consequat. Cras dictum est eu arcu placerat in elementum mi aliquet. Proin mauris
-        turpis, consequat sed molestie vitae, sollicitudin sed est. Aenean quis lectus at felis
-        feugiat fermentum. Proin laoreet eros eu purus vulputate sollicitudin. Mauris id diam
-      </p>
-    </div>
 
   </div><!-- row -->
 
@@ -210,7 +175,7 @@
 
 
   </div><!--/row-->
-
+<hr>
 
 
       <footer>

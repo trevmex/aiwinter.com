@@ -3,6 +3,8 @@ aiwinter.com
 
 Website for aiwinter.com.
 
+ruby 1.9.3: `rvm use 1.9.3`
+
 ## developer notes for rails noobs
 
 as best as i can tell these are the incantations i typed in to make bootstrap assets work:
