@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>
   <dd><%= @paper.title %></dd>
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
-  <dd><%= @paper.description %></dd>
+  <dd><%= raw @paper.description %></dd>
 </dl>
 
 <div class="form-actions">

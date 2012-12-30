@@ -16,7 +16,7 @@
       <tr>
         <td><%= link_to city.id, city_path(city) %></td>
         <td><%= city.name %></td>
-        <td><%= city.description %></td>
+        <td><%= raw city.description %></td>
         <td><%=l city.created_at %></td>
      </tr>
     <% end %>

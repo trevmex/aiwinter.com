@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
   <dd><%= @city.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
-  <dd><%= @city.description %></dd>
+  <dd><%= raw @city.description %></dd>
 </dl>
 
 <div class="form-actions">

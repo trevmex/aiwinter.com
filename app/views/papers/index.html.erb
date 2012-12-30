@@ -16,7 +16,7 @@
       <tr>
         <td><%= link_to paper.id, paper_path(paper) %></td>
         <td><%= paper.title %></td>
-        <td><%= paper.description %></td>
+        <td><%= raw paper.description %></td>
         <td><%=l paper.created_at %></td>
       </tr>
     <% end %>
